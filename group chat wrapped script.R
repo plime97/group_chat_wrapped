@@ -281,7 +281,7 @@ E(g)$weight
 ranks <- page_rank(g, weights = E(g)$weight)$vector
 
 
-png(file = "Outputs/Network plot.png", width = 1200, height = 1200)
+png(file = "Network plot.png", width = 1200, height = 1200)
 plot(g,
      edge.width = 10*E(g)$weight / max(E(g)$weight),
      vertex.size = sqrt(ranks*3000),
@@ -448,4 +448,4 @@ write.xlsx(list( "Words said per person" = number_words_said,
                  "Words per like by person" = words_per_like_received,
                  "Sentiment by person" = sentiment_proportions,
                  "Sentiment by month" = sentiment_over_time),
-           "Outputs/results_tables.xlsx")
+           "results_tables.xlsx")
