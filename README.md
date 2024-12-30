@@ -11,12 +11,14 @@ This data is spit out in the outputs folder as a graph of the 'network' in addit
 
 ## Steps to run:
 
-1. Download your information in https://accountscenter.facebook.com/info_and_permissions 
+1. Open up the R project file and the R script within it. The location of the R project then becomes the working directory.
+
+2. Download your information in https://accountscenter.facebook.com/info_and_permissions 
     - Only requires messages information, in HTML format.
 
-2. Find the chat of interest in your downloaded Facebook information information your_facebook_activity\messages\inbox\[CHAT_NAME]
+3. Find the chat of interest in your downloaded Facebook information information your_facebook_activity\messages\inbox\[CHAT_NAME]
     - Then save the HTML file 'message_[NUM]' etc. into a folder in the same directory as the R Project (e.g. I've been using the 'group chat 2024' folder).
 
-3. Fill in the necessary manual info at the top of the R script, including noting the folder to analyse data within above and also a concordance of nicknames.
+4. Fill in the necessary manual info at the top of the R script, including noting the folder to analyse data within above and also a concordance of nicknames.
 
-4. Run the script and look in the Outputs folder to enjoy the chaos of the results you have just uncovered!
+5. Run the script and look in the Outputs folder to enjoy the chaos of the results you have just uncovered!
