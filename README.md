@@ -7,7 +7,7 @@ This is a script that analyses Facebook Messenger chat data saved in the 'group 
   members of the group chat.
 - Sentiment analysis - using the NRC Emotion Lexicon (Mohammad & Turny, 2011).
 
-This data is spit out in the outputs folder as a graph of the 'network' in addition to an Excel of detailed results. These can be presented in visualisations such as the 'Example.jpg' provided.
+This data is spit out in the outputs folder as a graph of the 'network' in addition to an Excel of detailed results. These can be presented in visualisations such as the example 'GROUP CHAT WRAPPED - DEIDENTIFIED.png' provided.
 
 ## Steps to run:
 
